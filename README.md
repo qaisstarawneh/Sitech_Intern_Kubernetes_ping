@@ -10,8 +10,9 @@ this needs the ping command to be set, no env vars, no pvc, nothing special.
   nano ping-cronjob.yaml
   ```
   
-    #ping-cronjob.yaml:
-  ```
+  #ping-cronjob.yaml:
+  
+ ```
   apiVersion: batch/v1
 kind: CronJob
 metadata:
