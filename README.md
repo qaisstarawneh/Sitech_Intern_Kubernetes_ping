@@ -59,8 +59,7 @@ kind: Specifies that we are creating a CronJob object.
     
    The out-put should be as the below:
     
-    ![alt_text](![image](https://user-images.githubusercontent.com/121809992/232246346-1d75b9cb-ff4d-4b0a-afca-9b232d3709a3.png))
-
+<img src="https://user-images.githubusercontent.com/121809992/232246346-1d75b9cb-ff4d-4b0a-afca-9b232d3709a3.png" width="128"/>
 
     
     
