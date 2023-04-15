@@ -47,17 +47,17 @@ kind: Specifies that we are creating a CronJob object.
   
   #2nd Apply the manifest file to create the CronJob in your Kubernetes cluster
   
-    ```
+    
     kubectl apply -f ping-cronjob.yaml
-    ```
+    
     
   #3rd Verify that the CronJob has been created:
   
-    ```
+    
     kubectl get cronjobs
 
-    ```
-    The out-put should be as the below:
+    
+   The out-put should be as the below:
     
     ![image](https://user-images.githubusercontent.com/121809992/232246346-1d75b9cb-ff4d-4b0a-afca-9b232d3709a3.png)
 
