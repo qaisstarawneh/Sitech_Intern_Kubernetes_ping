@@ -46,13 +46,13 @@ kind: Specifies that we are creating a CronJob object.
   - args: Specifies the command-line arguments to pass to the container, which in this case are the ping command, the count of pings to be set to 1, and the target IP address, 8.8.8.8.
   - restartPolicy: Specifies the restart policy for the container. In this case, we use OnFailure, which means the container will be restarted if it fails.
   
-  #2nd Apply the manifest file to create the CronJob in your Kubernetes cluster
+# 2nd Apply the manifest file to create the CronJob in your Kubernetes cluster
   
     
     kubectl apply -f ping-cronjob.yaml
     
     
-  #3rd Verify that the CronJob has been created:
+# 3rd Verify that the CronJob has been created:
   
     
     kubectl get cronjobs
